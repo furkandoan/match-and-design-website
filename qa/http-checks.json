@@ -1,0 +1,38 @@
+[
+  {
+    "route": "/",
+    "status": 200,
+    "expected": 200
+  },
+  {
+    "route": "/approach/",
+    "status": 200,
+    "expected": 200
+  },
+  {
+    "route": "/work/",
+    "status": 200,
+    "expected": 200
+  },
+  {
+    "route": "/about/",
+    "status": 200,
+    "expected": 200
+  },
+  {
+    "route": "/contact/",
+    "status": 200,
+    "expected": 200
+  },
+  {
+    "route": "/not-a-page/",
+    "status": 404,
+    "expected": 404
+  },
+  {
+    "route": "/robots.txt",
+    "status": 200,
+    "expected": 200,
+    "robots": "User-agent: *\nDisallow: /"
+  }
+]

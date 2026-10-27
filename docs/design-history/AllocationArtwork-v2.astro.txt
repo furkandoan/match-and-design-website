@@ -1,0 +1,29 @@
+---
+import graph from '../data/allocation-graph.json';
+const { nodes, possible, selected } = graph;
+---
+<figure class="allocation-artwork" aria-labelledby="graph-caption">
+  <div class="graph-heading"><span class="graph-cross" aria-hidden="true">+</span><span>A structure of possibilities.</span></div>
+  <svg class="allocation-svg" viewBox="35 25 800 470" role="img" aria-labelledby="graph-title graph-description">
+    <title id="graph-title">From possible relationships to a matching</title>
+    <desc id="graph-description">A spatial bipartite graph with nine participants and nine resources. Fine dashed edges show feasible relationships. Nine solid mint edges form one possible matching, with each participant and resource used once. This is a conceptual illustration.</desc>
+    <g class="graph-guides" fill="none" stroke="currentColor" stroke-width=".6">
+      <path d="M48 66H816M48 270H816M48 438H816M86 40V465M404 40V465M784 40V465" />
+      <path d="M39 66H57M48 57V75M807 66H825M816 57V75M39 438H57M48 429V447M807 438H825M816 429V447" />
+    </g>
+    <g class="graph-possible" fill="none" stroke="currentColor" stroke-width="1.1" stroke-dasharray="3 5">
+      {possible.map(([a,b]) => <line x1={nodes[a].x} y1={nodes[a].y} x2={nodes[b].x} y2={nodes[b].y} />)}
+    </g>
+    <g class="graph-selected" fill="none" stroke="currentColor" stroke-width="2.5">
+      {selected.map(([a,b]) => <line x1={nodes[a].x} y1={nodes[a].y} x2={nodes[b].x} y2={nodes[b].y} />)}
+    </g>
+    <g class="graph-vertices">
+      {nodes.map(node => <g>
+        <circle cx={node.x} cy={node.y} r={node.type === 'p' ? 5 : 7} class={node.type === 'p' ? 'graph-person' : 'graph-resource'} />
+        {node.type === 'r' && <circle cx={node.x} cy={node.y} r="2" class="graph-resource-core" />}
+        <text x={node.x + 13} y={node.y - 12}>{node.label}</text>
+      </g>)}
+    </g>
+  </svg>
+  <figcaption id="graph-caption"><span><i class="legend-possible" aria-hidden="true"></i>Feasible relationships</span><span><i class="legend-selected" aria-hidden="true"></i>One possible allocation</span></figcaption>
+</figure>

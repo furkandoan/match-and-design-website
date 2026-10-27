@@ -1,0 +1,17 @@
+{
+  "first": {
+    "controlCopy": false,
+    "controls": 0,
+    "cycle": "1",
+    "state": "complete"
+  },
+  "scrolled": {
+    "cycle": "2",
+    "scroll": 0,
+    "state": "complete"
+  },
+  "reloaded": {
+    "cycle": "1",
+    "state": "playing"
+  }
+}

@@ -1,0 +1,326 @@
+[
+  {
+    "route": "/",
+    "requested": 320,
+    "h1": 1,
+    "navVisible": "none",
+    "scrollWidth": 320,
+    "title": "Match & Design — Allocation systems, by design",
+    "width": 320
+  },
+  {
+    "route": "/approach/",
+    "requested": 320,
+    "h1": 1,
+    "navVisible": "none",
+    "scrollWidth": 320,
+    "title": "Approach — Match & Design",
+    "width": 320
+  },
+  {
+    "route": "/work/",
+    "requested": 320,
+    "h1": 1,
+    "navVisible": "none",
+    "scrollWidth": 320,
+    "title": "Applications — Match & Design",
+    "width": 320
+  },
+  {
+    "route": "/market-design/",
+    "requested": 320,
+    "h1": 1,
+    "navVisible": "none",
+    "scrollWidth": 320,
+    "title": "The Science of Allocation — Match & Design",
+    "width": 320
+  },
+  {
+    "route": "/about/",
+    "requested": 320,
+    "h1": 1,
+    "navVisible": "none",
+    "scrollWidth": 320,
+    "title": "About — Match & Design",
+    "width": 320
+  },
+  {
+    "route": "/contact/",
+    "requested": 320,
+    "h1": 1,
+    "navVisible": "none",
+    "scrollWidth": 320,
+    "title": "Contact — Match & Design",
+    "width": 320
+  },
+  {
+    "route": "/",
+    "requested": 390,
+    "h1": 1,
+    "navVisible": "none",
+    "scrollWidth": 390,
+    "title": "Match & Design — Allocation systems, by design",
+    "width": 390
+  },
+  {
+    "route": "/approach/",
+    "requested": 390,
+    "h1": 1,
+    "navVisible": "none",
+    "scrollWidth": 390,
+    "title": "Approach — Match & Design",
+    "width": 390
+  },
+  {
+    "route": "/work/",
+    "requested": 390,
+    "h1": 1,
+    "navVisible": "none",
+    "scrollWidth": 390,
+    "title": "Applications — Match & Design",
+    "width": 390
+  },
+  {
+    "route": "/market-design/",
+    "requested": 390,
+    "h1": 1,
+    "navVisible": "none",
+    "scrollWidth": 390,
+    "title": "The Science of Allocation — Match & Design",
+    "width": 390
+  },
+  {
+    "route": "/about/",
+    "requested": 390,
+    "h1": 1,
+    "navVisible": "none",
+    "scrollWidth": 390,
+    "title": "About — Match & Design",
+    "width": 390
+  },
+  {
+    "route": "/contact/",
+    "requested": 390,
+    "h1": 1,
+    "navVisible": "none",
+    "scrollWidth": 390,
+    "title": "Contact — Match & Design",
+    "width": 390
+  },
+  {
+    "route": "/",
+    "requested": 640,
+    "h1": 1,
+    "navVisible": "none",
+    "scrollWidth": 640,
+    "title": "Match & Design — Allocation systems, by design",
+    "width": 640
+  },
+  {
+    "route": "/approach/",
+    "requested": 640,
+    "h1": 1,
+    "navVisible": "none",
+    "scrollWidth": 640,
+    "title": "Approach — Match & Design",
+    "width": 640
+  },
+  {
+    "route": "/work/",
+    "requested": 640,
+    "h1": 1,
+    "navVisible": "none",
+    "scrollWidth": 640,
+    "title": "Applications — Match & Design",
+    "width": 640
+  },
+  {
+    "route": "/market-design/",
+    "requested": 640,
+    "h1": 1,
+    "navVisible": "none",
+    "scrollWidth": 640,
+    "title": "The Science of Allocation — Match & Design",
+    "width": 640
+  },
+  {
+    "route": "/about/",
+    "requested": 640,
+    "h1": 1,
+    "navVisible": "none",
+    "scrollWidth": 640,
+    "title": "About — Match & Design",
+    "width": 640
+  },
+  {
+    "route": "/contact/",
+    "requested": 640,
+    "h1": 1,
+    "navVisible": "none",
+    "scrollWidth": 640,
+    "title": "Contact — Match & Design",
+    "width": 640
+  },
+  {
+    "route": "/",
+    "requested": 768,
+    "h1": 1,
+    "navVisible": "none",
+    "scrollWidth": 768,
+    "title": "Match & Design — Allocation systems, by design",
+    "width": 768
+  },
+  {
+    "route": "/approach/",
+    "requested": 768,
+    "h1": 1,
+    "navVisible": "none",
+    "scrollWidth": 768,
+    "title": "Approach — Match & Design",
+    "width": 768
+  },
+  {
+    "route": "/work/",
+    "requested": 768,
+    "h1": 1,
+    "navVisible": "none",
+    "scrollWidth": 768,
+    "title": "Applications — Match & Design",
+    "width": 768
+  },
+  {
+    "route": "/market-design/",
+    "requested": 768,
+    "h1": 1,
+    "navVisible": "none",
+    "scrollWidth": 768,
+    "title": "The Science of Allocation — Match & Design",
+    "width": 768
+  },
+  {
+    "route": "/about/",
+    "requested": 768,
+    "h1": 1,
+    "navVisible": "none",
+    "scrollWidth": 768,
+    "title": "About — Match & Design",
+    "width": 768
+  },
+  {
+    "route": "/contact/",
+    "requested": 768,
+    "h1": 1,
+    "navVisible": "none",
+    "scrollWidth": 768,
+    "title": "Contact — Match & Design",
+    "width": 768
+  },
+  {
+    "route": "/",
+    "requested": 1024,
+    "h1": 1,
+    "navVisible": "flex",
+    "scrollWidth": 1024,
+    "title": "Match & Design — Allocation systems, by design",
+    "width": 1024
+  },
+  {
+    "route": "/approach/",
+    "requested": 1024,
+    "h1": 1,
+    "navVisible": "flex",
+    "scrollWidth": 1024,
+    "title": "Approach — Match & Design",
+    "width": 1024
+  },
+  {
+    "route": "/work/",
+    "requested": 1024,
+    "h1": 1,
+    "navVisible": "flex",
+    "scrollWidth": 1024,
+    "title": "Applications — Match & Design",
+    "width": 1024
+  },
+  {
+    "route": "/market-design/",
+    "requested": 1024,
+    "h1": 1,
+    "navVisible": "flex",
+    "scrollWidth": 1024,
+    "title": "The Science of Allocation — Match & Design",
+    "width": 1024
+  },
+  {
+    "route": "/about/",
+    "requested": 1024,
+    "h1": 1,
+    "navVisible": "flex",
+    "scrollWidth": 1024,
+    "title": "About — Match & Design",
+    "width": 1024
+  },
+  {
+    "route": "/contact/",
+    "requested": 1024,
+    "h1": 1,
+    "navVisible": "flex",
+    "scrollWidth": 1024,
+    "title": "Contact — Match & Design",
+    "width": 1024
+  },
+  {
+    "route": "/",
+    "requested": 1440,
+    "h1": 1,
+    "navVisible": "flex",
+    "scrollWidth": 1440,
+    "title": "Match & Design — Allocation systems, by design",
+    "width": 1440
+  },
+  {
+    "route": "/approach/",
+    "requested": 1440,
+    "h1": 1,
+    "navVisible": "flex",
+    "scrollWidth": 1440,
+    "title": "Approach — Match & Design",
+    "width": 1440
+  },
+  {
+    "route": "/work/",
+    "requested": 1440,
+    "h1": 1,
+    "navVisible": "flex",
+    "scrollWidth": 1440,
+    "title": "Applications — Match & Design",
+    "width": 1440
+  },
+  {
+    "route": "/market-design/",
+    "requested": 1440,
+    "h1": 1,
+    "navVisible": "flex",
+    "scrollWidth": 1440,
+    "title": "The Science of Allocation — Match & Design",
+    "width": 1440
+  },
+  {
+    "route": "/about/",
+    "requested": 1440,
+    "h1": 1,
+    "navVisible": "flex",
+    "scrollWidth": 1440,
+    "title": "About — Match & Design",
+    "width": 1440
+  },
+  {
+    "route": "/contact/",
+    "requested": 1440,
+    "h1": 1,
+    "navVisible": "flex",
+    "scrollWidth": 1440,
+    "title": "Contact — Match & Design",
+    "width": 1440
+  }
+]

@@ -1,0 +1,8 @@
+---
+import { en } from '../data/en';
+import Arrow from './Arrow.astro';
+---
+<section class="contact-cta wrap" aria-labelledby="contact-cta-title">
+  <h2 id="contact-cta-title">{en.cta.title.map(line => <span class="line">{line}</span>)}</h2>
+  <a class="text-link" href="/contact/">{en.cta.link}<Arrow /></a>
+</section>

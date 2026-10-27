@@ -1,0 +1,14 @@
+{
+  "emptyForm": {
+    "focused": "enquiry-problem",
+    "hasStatus": false,
+    "invalid": true
+  },
+  "whitespaceForm": {
+    "hasStatus": false,
+    "invalid": true,
+    "message": "Please describe the allocation problem."
+  },
+  "mailApplicationLaunchTested": false,
+  "messageSent": false
+}

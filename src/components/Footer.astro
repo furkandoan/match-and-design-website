@@ -1,0 +1,16 @@
+---
+import { site, navigation, EDUSCOPE_URL } from '../data/site';
+import { en } from '../data/en';
+import Arrow from './Arrow.astro';
+---
+<footer class="site-footer wrap">
+  <div class="footer-upper">
+    <div><a class="footer-brand" href="/">{site.name}</a><p>{en.footer.statement}</p><p class="footer-fields">Matching theory. Market design.<br />Mechanism design. Optimization.</p></div>
+    <nav aria-label="Footer navigation">
+      {navigation.map(item => <a href={item.href}>{item.label}</a>)}
+      <a href={EDUSCOPE_URL}>Eduscope <Arrow direction="up-right" /></a>
+      <a href="/contact/">Contact</a>
+    </nav>
+  </div>
+  <div class="footer-lower"><p>© {new Date().getFullYear()} {site.legalName}</p><a href="#top">{en.footer.top}<Arrow direction="down" class="turn-up" /></a></div>
+</footer>

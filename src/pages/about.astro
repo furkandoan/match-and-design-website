@@ -1,0 +1,23 @@
+---
+import Base from '../layouts/Base.astro';
+import ContactCta from '../components/ContactCta.astro';
+import { en } from '../data/en';
+import { site } from '../data/site';
+---
+<Base title={en.about.title} description={en.about.description}>
+  <section class="page-hero wrap" aria-labelledby="page-title">
+    <p class="section-index">{en.about.title}</p>
+    <h1 id="page-title">{en.about.headline.map(line => <span class="line">{line}</span>)}</h1>
+    <p class="lead">{en.about.intro}</p>
+  </section>
+  <section class="about-body wrap" aria-label="About the company">
+    <div class="about-wordmark"><img src="/logos/match-and-design.png" width="1000" height="448" alt="Match & Design — Matching Theory and Market Design" loading="lazy" /><p>{en.about.legalLabel}<br />{site.legalName}</p></div>
+    <div class="about-prose">{en.about.body.map(paragraph => <p>{paragraph}</p>)}</div>
+  </section>
+  <section class="purpose-section" aria-labelledby="purpose-title"><div class="wrap"><h2 id="purpose-title">{en.about.purposeTitle}</h2><p>{en.about.purposeBody}</p></div></section>
+  <section class="section wrap" aria-labelledby="principles-title">
+    <div class="section-heading"><h2 id="principles-title">{en.about.practiceTitle}</h2></div>
+    <ul class="principle-list">{en.about.principles.map(item => <li><h3>{item.title}</h3><p>{item.body}</p></li>)}</ul>
+  </section>
+  <ContactCta />
+</Base>

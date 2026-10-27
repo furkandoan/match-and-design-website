@@ -1,0 +1,22 @@
+---
+import { en } from '../data/en';
+import { EDUSCOPE_URL } from '../data/site';
+import Arrow from './Arrow.astro';
+---
+<section class="eduscope-section" aria-labelledby="eduscope-title">
+  <div class="eduscope-inner wrap">
+    <div class="eduscope-copy">
+      <p class="section-index">{en.eduscope.context}</p>
+      <h2 id="eduscope-title">{en.eduscope.title.split('\n').map(line => <span class="line">{line}</span>)}</h2>
+      <p class="lead">{en.eduscope.body}</p>
+      <p>{en.eduscope.detail}</p>
+      <a class="text-link" href={EDUSCOPE_URL}>{en.eduscope.cta}<Arrow direction="up-right" /></a>
+    </div>
+    <div class="eduscope-identity">
+      <img src="/logos/eduscope-dark.svg" width="213" height="100" alt="Eduscope" loading="lazy" />
+      <div class="qed-signature"><strong>{en.eduscope.signature}</strong><p lang="la">{en.eduscope.motto}</p></div>
+      <ul>{en.eduscope.scope.map(item => <li>{item}</li>)}</ul>
+      <span class="eduscope-family">A Match & Design product family</span>
+    </div>
+  </div>
+</section>

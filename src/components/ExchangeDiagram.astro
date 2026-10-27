@@ -1,0 +1,55 @@
+---
+const pairs = [{ letter: 'A', y: 80 }, { letter: 'B', y: 190 }, { letter: 'C', y: 300 }];
+---
+<figure class="exchange-example" data-exchange-example aria-labelledby="exchange-title">
+  <div class="exchange-top"><span id="exchange-title">See the idea</span><span>Three pairs / one pool</span></div>
+  <div class="exchange-controls" data-exchange-controls hidden aria-label="Exchange illustration">
+    <button type="button" data-exchange-mode="pairs" aria-pressed="false">Within each pair</button>
+    <button type="button" data-exchange-mode="pool" aria-pressed="true">Across the pool</button>
+  </div>
+  <svg viewBox="0 0 560 370" role="img" aria-labelledby="exchange-svg-title exchange-svg-desc">
+    <title id="exchange-svg-title">An illustrative three-pair donor exchange</title>
+    <desc id="exchange-svg-desc">Donors A, B and C cannot donate to their own recipients. In this hypothetical pool, donor A can donate to recipient B, donor B to recipient C, and donor C to recipient A.</desc>
+    <defs><marker id="exchange-arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="m1 1 5 3-5 3" fill="none" stroke="#00f59b" stroke-width="1.5" /></marker></defs>
+    <g class="exchange-pair-lines" fill="none" stroke="#9389b2" stroke-width="1.2" stroke-dasharray="4 7">
+      {pairs.map(pair => <path d={`M160 ${pair.y}H400`} />)}
+    </g>
+    <g class="exchange-incompatible" stroke="#bcb3d3" stroke-width="1.5">
+      {pairs.map(pair => <path d={`M273 ${pair.y-7}l14 14m0-14-14 14`} />)}
+    </g>
+    <g class="exchange-pool-lines" fill="none" stroke="#00f59b" stroke-width="2" marker-end="url(#exchange-arrow)">
+      <path d="M160 80C285 80 275 190 399 190" />
+      <path d="M160 190C285 190 275 300 399 300" />
+      <path d="M160 300C345 300 215 80 399 80" />
+    </g>
+    {pairs.map(pair => <g class="exchange-pair">
+      <rect x="20" y={pair.y-24} width="140" height="48" rx="24" fill="#292459" stroke="#8b80ae" />
+      <circle cx="32" cy={pair.y} r="4" fill="#00f59b" />
+      <text x="100" y={pair.y+9} text-anchor="middle">Donor {pair.letter}</text>
+      <rect x="400" y={pair.y-24} width="140" height="48" rx="24" fill="#292459" stroke="#8b80ae" />
+      <text x="470" y={pair.y+9} text-anchor="middle">Patient {pair.letter}</text>
+    </g>)}
+  </svg>
+  <p class="exchange-status" data-exchange-status aria-live="polite" aria-atomic="true">A → B. B → C. C → A. Each recipient has a compatible donor in the pool.</p>
+  <figcaption>Schematic example, not patient data or a clinical compatibility assessment.</figcaption>
+</figure>
+
+<script>
+  const example = document.querySelector<HTMLElement>('[data-exchange-example]');
+  if (example) {
+    const controls = example.querySelector<HTMLElement>('[data-exchange-controls]');
+    const status = example.querySelector<HTMLElement>('[data-exchange-status]');
+    const buttons = example.querySelectorAll<HTMLButtonElement>('[data-exchange-mode]');
+    if (controls && status) {
+      controls.hidden = false;
+      buttons.forEach(button => button.addEventListener('click', () => {
+        const mode = button.dataset.exchangeMode;
+        example.dataset.mode = mode;
+        buttons.forEach(item => item.setAttribute('aria-pressed', String(item === button)));
+        status.textContent = mode === 'pairs'
+          ? 'Within these hypothetical pairs, none of the three donors is compatible with their intended recipient.'
+          : 'A → B. B → C. C → A. Each recipient has a compatible donor in the pool.';
+      }));
+    }
+  }
+</script>

@@ -1,0 +1,28 @@
+---
+import Base from '../layouts/Base.astro';
+import Arrow from '../components/Arrow.astro';
+import ContactCta from '../components/ContactCta.astro';
+import { en } from '../data/en';
+import { EDUSCOPE_URL } from '../data/site';
+---
+<Base title={en.work.title} description={en.work.description}>
+  <section class="page-hero wrap" aria-labelledby="page-title">
+    <p class="section-index">{en.work.title}</p>
+    <h1 id="page-title">{en.work.headline.map(line => <span class="line">{line}</span>)}</h1>
+    <p class="lead">{en.work.intro}</p>
+  </section>
+  <section class="work-feature wrap" aria-labelledby="education-title">
+    <div><h2 id="education-title">{en.work.implementedTitle.split('\n').map(line => <span class="line">{line}</span>)}</h2><p>{en.work.implementedBody}</p></div>
+    <div class="work-product">
+      <header><img src="/logos/eduscope-dark.svg" width="1066" height="500" alt="Eduscope" /><span>{en.work.focusLabel}</span></header>
+      <div class="qed-signature qed-signature--compact"><strong>{en.eduscope.signature}</strong><p lang="la">{en.eduscope.motto}</p></div>
+      <ul>{en.work.productAreas.map(item => <li><h3>{item.title}</h3><p>{item.body}</p></li>)}</ul>
+      <a class="text-link" href={EDUSCOPE_URL}>{en.eduscope.cta}<Arrow direction="up-right" /></a>
+    </div>
+  </section>
+  <section class="section bordered-section wrap" aria-labelledby="broader-title">
+    <div class="section-heading"><h2 id="broader-title">{en.work.broaderTitle.split('\n').map(line => <span class="line">{line}</span>)}</h2><p>{en.work.broaderIntro}</p></div>
+    <ul class="problem-classes">{en.work.problemClasses.map(item => <li><h3>{item.name}</h3><p>{item.text}</p></li>)}</ul>
+  </section>
+  <ContactCta />
+</Base>

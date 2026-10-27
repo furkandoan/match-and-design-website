@@ -1,0 +1,34 @@
+[
+  {
+    "route": "/",
+    "status": 200
+  },
+  {
+    "route": "/market-design/",
+    "status": 200
+  },
+  {
+    "route": "/approach/",
+    "status": 200
+  },
+  {
+    "route": "/work/",
+    "status": 200
+  },
+  {
+    "route": "/about/",
+    "status": 200
+  },
+  {
+    "route": "/contact/",
+    "status": 200
+  },
+  {
+    "route": "/not-a-real-page/",
+    "status": 404
+  },
+  {
+    "route": "/robots.txt",
+    "status": 200
+  }
+]

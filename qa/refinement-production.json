@@ -1,0 +1,24 @@
+{
+  "automaticStart": {
+    "figureVisible": true,
+    "phase": "current"
+  },
+  "automaticEnd": {
+    "caption": "New matching: A–Y and B–X. No blocking pair remains in this example.",
+    "phase": "resolved"
+  },
+  "manualBlocking": "blocking",
+  "manualResolved": "resolved",
+  "productionEmail": {
+    "href": "mailto:furkan@matchanddesign.com?subject=An%20allocation%20problem%20%E2%80%94%20Match%20%26%20Design",
+    "recipient": "furkan@matchanddesign.com",
+    "text": "furkan@matchanddesign.com"
+  },
+  "productionHome": {
+    "controls": 0,
+    "cycle": "1",
+    "qedSize": "28px",
+    "state": "playing"
+  },
+  "previousManualHeld": "blocking"
+}

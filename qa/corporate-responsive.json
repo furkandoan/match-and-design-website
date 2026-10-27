@@ -1,0 +1,80 @@
+[
+  {
+    "competitorMention": false,
+    "h1": 1,
+    "pageNavigation": [
+      "The idea",
+      "In practice",
+      "Our approach"
+    ],
+    "profileSections": 0,
+    "scrollWidth": 320,
+    "sourcesClosed": true,
+    "width": 320
+  },
+  {
+    "competitorMention": false,
+    "h1": 1,
+    "pageNavigation": [
+      "The idea",
+      "In practice",
+      "Our approach"
+    ],
+    "profileSections": 0,
+    "scrollWidth": 390,
+    "sourcesClosed": true,
+    "width": 390
+  },
+  {
+    "competitorMention": false,
+    "h1": 1,
+    "pageNavigation": [
+      "The idea",
+      "In practice",
+      "Our approach"
+    ],
+    "profileSections": 0,
+    "scrollWidth": 640,
+    "sourcesClosed": true,
+    "width": 640
+  },
+  {
+    "competitorMention": false,
+    "h1": 1,
+    "pageNavigation": [
+      "The idea",
+      "In practice",
+      "Our approach"
+    ],
+    "profileSections": 0,
+    "scrollWidth": 768,
+    "sourcesClosed": true,
+    "width": 768
+  },
+  {
+    "competitorMention": false,
+    "h1": 1,
+    "pageNavigation": [
+      "The idea",
+      "In practice",
+      "Our approach"
+    ],
+    "profileSections": 0,
+    "scrollWidth": 1024,
+    "sourcesClosed": true,
+    "width": 1024
+  },
+  {
+    "competitorMention": false,
+    "h1": 1,
+    "pageNavigation": [
+      "The idea",
+      "In practice",
+      "Our approach"
+    ],
+    "profileSections": 0,
+    "scrollWidth": 1440,
+    "sourcesClosed": true,
+    "width": 1440
+  }
+]

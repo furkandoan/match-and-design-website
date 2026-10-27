@@ -1,0 +1,139 @@
+.science-hero { background: linear-gradient(125deg, #100e20, #211b3b 75%, #292459); color: white; }
+.science-hero-inner { display: grid; grid-template-columns: 1.3fr .9fr; gap: 8%; align-items: center; padding-top: 65px; padding-bottom: 70px; }
+.science-hero .section-index { color: #bdb4d3; }
+.science-hero h1 { font-size: clamp(55px, 5.7vw, 80px); line-height: 1.05; letter-spacing: -.052em; }
+.science-hero .lead { margin-top: 30px; max-width: 37ch; font-size: 22px; color: #cbc5db; }
+.science-hero .text-link { margin-top: 25px; font-size: 14px; color: var(--green); }
+.science-hero :focus-visible,.nobel-section :focus-visible,.case-study-section :focus-visible { outline-color: var(--green); }
+.science-orbit { max-width: 440px; width: 100%; justify-self: end; }
+.science-orbit svg { width: 100%; }
+.science-orbit figcaption { color: #bdb4d3; font-size: 11px; text-align: center; letter-spacing: .06em; margin-top: 12px; }
+.science-contents { display: flex; flex-wrap: wrap; column-gap: 35px; row-gap: 2px; padding-block: 14px; border-top: 1px solid #554a70; }
+.science-contents a { padding-block: 9px; color: #d0c8e1; font-size: 12px; text-decoration: none; }
+.science-contents a:hover { color: var(--green); }
+.science-contents a { display: inline-flex; align-items: center; gap: 9px; }
+.science-contents .arrow { width: 15px; height: 15px; }
+.science-intro .section-heading { margin-bottom: 55px; }
+.science-intro .section-heading>div { color: var(--muted); font-size: 18px; }
+.science-concepts { display: grid; grid-template-columns: repeat(3,1fr); gap: 45px; list-style: none; padding: 0; margin: 0; }
+.science-concepts li { border-top: 1px solid var(--ink); padding-top: 25px; }
+.science-concepts h3 { font-size: 27px; margin-top: 19px; }
+.science-concepts p { font-size: 15px; color: var(--muted); }
+.science-concepts .concept-question { color: var(--ink); font-size: 17px; margin-top: 22px; min-height: 56px; }
+.science-concepts p+p { margin-top: 14px; }
+.science-note { font-size: 13px; color: var(--muted); margin-top: 35px; max-width: 90ch; }
+.source-cite { display: inline-block; font-size: 11px; letter-spacing: .02em; font-weight: 500; vertical-align: 2px; padding: 0 2px; white-space: nowrap; text-decoration: none; }
+.source-cite:hover { text-decoration: underline; }
+.nobel-section { background: var(--purple); color: #fff; }
+.nobel-inner { display: grid; grid-template-columns: .85fr 1.15fr; gap: 12%; align-items: start; padding-block: 95px; }
+.nobel-year { color: #b1a5db; font-size: clamp(100px, 12vw, 172px); font-weight: 400; letter-spacing: -.085em; line-height: .92; }
+.nobel-year span { display: block; font-size: 12px; letter-spacing: .02em; color: #c6bddc; margin-top: 26px; }
+.nobel-section .section-index { color: #c9c1dc; margin-bottom: 22px; }
+.nobel-section h2 { font-size: clamp(38px, 4vw, 53px); }
+.nobel-section .lead { font-size: 21px; color: white; margin-top: 28px; }
+.nobel-section p:not(.lead):not(.section-index) { color: #c8c0de; font-size: 16px; margin-top: 22px; }
+.nobel-section .text-link { color: var(--green); margin-top: 27px; font-size: 14px; }
+.science-applications { list-style: none; padding: 0; margin: 0; }
+.science-applications li { display: grid; grid-template-columns: 35px 1fr 1.05fr; gap: 25px; padding-block: 32px; border-top: 1px solid var(--line); }
+.science-applications li:last-child { border-bottom: 1px solid var(--line); }
+.science-applications h3 { font-size: 27px; }
+.science-applications .application-subject { font-size: 12px; color: var(--muted); margin-top: 12px; }
+.science-applications li>p { color: var(--muted); font-size: 16px; }
+.case-study-section { background: #171329; color: white; padding-block: var(--space-section); }
+.case-study-heading { display: grid; grid-template-columns: 1.1fr 1fr; gap: 0 10%; align-items: end; margin-bottom: 55px; }
+.case-study-heading .section-index { grid-column: 1/-1; color: #b8accf; }
+.case-study-heading h2 { font-size: clamp(38px, 4vw, 55px); }
+.case-study-heading .lead { font-size: 20px; color: #c5bbd8; }
+.case-study-layout { display: grid; grid-template-columns: 1fr 1.05fr; gap: 10%; align-items: start; }
+.case-study-prose { font-size: 16px; color: #c5bbd8; }
+.case-study-prose p+p { margin-top: 24px; }
+.case-study-prose .text-link { color: var(--green); margin-top: 25px; font-size: 14px; }
+.exchange-example { padding: 23px 23px 26px; border: 1px solid #5a4e73; background: #201a36; }
+.exchange-top { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; font-size: 11px; color: #c3b7d8; }
+.exchange-top span:first-child { color: white; font-weight: 500; }
+.exchange-controls { display: flex; gap: 8px; margin-top: 21px; }
+.exchange-controls button { flex: 1; font-size: 11px; min-height: 44px; border: 1px solid #74648f; border-radius: 3px; background: transparent; color: #d6cbe6; padding: 10px 8px; }
+.exchange-controls button[aria-pressed='true'] { color: #161024; background: var(--green); border-color: var(--green); }
+.exchange-example svg { width: 100%; margin-block: 5px; }
+.exchange-example svg text { font-family: var(--font); font-size: 28px; fill: #fff; }
+.exchange-incompatible { opacity: .3; }
+.exchange-example[data-mode='pairs'] .exchange-pool-lines { display: none; }
+.exchange-example[data-mode='pairs'] .exchange-incompatible { opacity: 1; }
+.exchange-example[data-mode='pairs'] .exchange-pair-lines { opacity: 1; }
+.exchange-pair-lines { opacity: .3; }
+.exchange-status { font-size: 13px; line-height: 1.6; color: #e0d6ef; min-height: 4.8em; }
+.exchange-example figcaption { font-size: 10px; line-height: 1.7; color: #c0b4d5; margin-top: 15px; padding-top: 14px; border-top: 1px solid #594d71; }
+.science-reading { padding-block: 34px 40px; }
+.science-reading summary { display: flex; align-items: center; gap: 20px; padding-block: 10px; font-size: 15px; font-weight: 500; cursor: pointer; list-style: none; }
+.science-reading summary::-webkit-details-marker { display: none; }
+.science-reading summary span { margin-left: auto; color: var(--muted); font-size: 11px; font-weight: 400; }
+.science-reading summary::after { content: '+'; width: 20px; text-align: center; font-size: 22px; font-weight: 400; line-height: 1; }
+.science-reading details[open] summary::after { content: '−'; }
+.science-reading .science-note { margin-top: 16px; }
+.science-reading ol { list-style: none; padding: 0; margin: 24px 0 0; }
+.science-reading li { display: grid; grid-template-columns: 40px 1fr; gap: 20px; border-top: 1px solid var(--line); padding-block: 19px; font-size: 12px; color: var(--muted); }
+.science-reading li:last-child { border-bottom: 1px solid var(--line); }
+.science-reading li>a { display: grid; grid-template-columns: .7fr 1.7fr auto; gap: 25px; align-items: baseline; font-size: 14px; text-decoration: none; }
+.science-reading strong { color: var(--ink); font-weight: 500; }
+.science-reading li>a:hover strong { text-decoration: underline; text-underline-offset: 4px; }
+.science-reading .arrow { width: 17px; height: 17px; }
+.science-return { background: var(--purple); color: white; padding-block: 75px; }
+.science-return .section-index { color: #c9c1dc; }
+.science-return h2 { font-size: clamp(33px,3.6vw,48px); }
+.science-return .text-link { color: var(--green); margin-top: 30px; }
+.science-return p:not(.section-index) { color: #c9c1dc; font-size: 19px; margin-top: 24px; max-width: 55ch; }
+.science-return-links { display: flex; flex-wrap: wrap; column-gap: 40px; }
+@media (max-width: 1000px) {
+  .science-hero-inner { gap: 5%; grid-template-columns: 1.3fr .8fr; }
+  .science-hero .lead { font-size: 20px; }
+  .science-concepts { gap: 25px; }
+  .science-concepts h3 { font-size: 24px; }
+  .nobel-inner { gap: 8%; grid-template-columns: .7fr 1.3fr; }
+  .nobel-year { font-size: 110px; }
+  .case-study-layout { gap: 6%; }
+  .exchange-example { padding: 18px; }
+}
+@media (max-width: 700px) {
+  .science-hero-inner { padding-top: 38px; padding-bottom: 42px; grid-template-columns: 1fr; gap: 30px; }
+  .science-hero h1 { font-size: clamp(48px,10.7vw,68px); }
+  .science-hero .section-index { font-size: 11px; margin-bottom: 24px; }
+  .science-hero .lead { font-size: 19px; max-width: 42ch; margin-top: 25px; }
+  .science-hero .text-link { margin-top: 18px; }
+  .science-orbit { width: 230px; justify-self: center; }
+  .science-orbit figcaption { font-size: 10px; margin-top: 5px; }
+  .science-contents { gap: 0 23px; padding-block: 13px; }
+  .science-contents a { font-size: 11px; }
+  .science-intro .section-heading,.case-study-heading { grid-template-columns: 1fr; gap: 27px; }
+  .science-intro .section-heading>div { font-size: 17px; }
+  .science-concepts { grid-template-columns: 1fr; gap: 29px; }
+  .science-concepts li { padding-top: 19px; }
+  .science-concepts h3 { font-size: 27px; margin-top: 10px; }
+  .science-concepts .concept-question { min-height: 0; margin-top: 17px; }
+  .science-concepts p { font-size: 16px; }
+  .nobel-inner { grid-template-columns: 1fr; padding-block: 64px; gap: 44px; }
+  .nobel-year { font-size: 130px; }
+  .nobel-year span { margin-top: 18px; }
+  .nobel-section .lead { font-size: 19px; }
+  .science-applications li { grid-template-columns: 24px 1fr; gap: 15px; padding-block: 28px; }
+  .science-applications li>p { grid-column: 2; }
+  .science-applications h3 { font-size: 25px; }
+  .science-applications .application-subject { font-size: 11px; }
+  .case-study-heading { margin-bottom: 32px; }
+  .case-study-heading .section-index { margin: 0; }
+  .case-study-heading h2 { font-size: clamp(35px,8.2vw,48px); }
+  .case-study-heading .lead { font-size: 19px; }
+  .case-study-layout { grid-template-columns: 1fr; gap: 38px; }
+  .exchange-example { max-width: 510px; width: 100%; }
+  .exchange-status { min-height: 4.8em; }
+  .science-reading li { grid-template-columns: 22px 1fr; gap: 12px; }
+  .science-reading li>a { grid-template-columns: 1fr 20px; gap: 7px 15px; }
+  .science-reading li>a>span { grid-row: 2; font-size: 12px; }
+  .science-reading li>a>.arrow { grid-column: 2; grid-row: 1; }
+  .science-return { padding-block: 62px; }
+}
+@media print {
+  .science-hero,.nobel-section,.case-study-section,.science-return { color: black; background: white; }
+  .science-hero p,.nobel-section p,.case-study-section p { color: black !important; }
+  .science-orbit,.exchange-example,.science-contents { display: none; }
+  .science-hero-inner,.nobel-inner,.case-study-layout { grid-template-columns: 1fr; }
+}

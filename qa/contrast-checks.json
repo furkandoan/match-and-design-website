@@ -1,0 +1,1632 @@
+{
+  "samples": 232,
+  "issues": [],
+  "minimum": 5.37,
+  "method": "Gradient backgrounds use their lightest stop as a conservative backdrop; alpha layers are composited.",
+  "details": [
+    {
+      "path": "/",
+      "selector": "A.",
+      "text": "Approach",
+      "ratio": 11.26,
+      "threshold": 4.5
+    },
+    {
+      "path": "/",
+      "selector": "A.",
+      "text": "Applications",
+      "ratio": 11.26,
+      "threshold": 4.5
+    },
+    {
+      "path": "/",
+      "selector": "A.",
+      "text": "About",
+      "ratio": 11.26,
+      "threshold": 4.5
+    },
+    {
+      "path": "/",
+      "selector": "A.nav-external",
+      "text": "Eduscope",
+      "ratio": 11.26,
+      "threshold": 4.5
+    },
+    {
+      "path": "/",
+      "selector": "A.nav-contact",
+      "text": "Contact",
+      "ratio": 18.99,
+      "threshold": 4.5
+    },
+    {
+      "path": "/",
+      "selector": "P.hero-context",
+      "text": "Mathematical design. Real-world systems.",
+      "ratio": 6.62,
+      "threshold": 4.5
+    },
+    {
+      "path": "/",
+      "selector": "H1.",
+      "text": "We designallocation systems.",
+      "ratio": 14.09,
+      "threshold": 3
+    },
+    {
+      "path": "/",
+      "selector": "P.lead",
+      "text": "We turn complex allocation problems into mathemati",
+      "ratio": 7.63,
+      "threshold": 4.5
+    },
+    {
+      "path": "/",
+      "selector": "A.button button--light",
+      "text": "What we design",
+      "ratio": 12.46,
+      "threshold": 4.5
+    },
+    {
+      "path": "/",
+      "selector": "A.button button--outline",
+      "text": "Our approach",
+      "ratio": 15.41,
+      "threshold": 4.5
+    },
+    {
+      "path": "/",
+      "selector": "SPAN.",
+      "text": "From possibilities to an allocation.",
+      "ratio": 7.19,
+      "threshold": 4.5
+    },
+    {
+      "path": "/",
+      "selector": "BUTTON.motion-control",
+      "text": "Pause animation",
+      "ratio": 9.07,
+      "threshold": 4.5
+    },
+    {
+      "path": "/",
+      "selector": "SPAN.",
+      "text": "Matching theory",
+      "ratio": 7.21,
+      "threshold": 4.5
+    },
+    {
+      "path": "/",
+      "selector": "SPAN.",
+      "text": "Market design",
+      "ratio": 7.21,
+      "threshold": 4.5
+    },
+    {
+      "path": "/",
+      "selector": "SPAN.",
+      "text": "Mechanism design",
+      "ratio": 7.21,
+      "threshold": 4.5
+    },
+    {
+      "path": "/",
+      "selector": "SPAN.",
+      "text": "Optimization",
+      "ratio": 7.21,
+      "threshold": 4.5
+    },
+    {
+      "path": "/",
+      "selector": "P.section-index",
+      "text": "What we design",
+      "ratio": 6.12,
+      "threshold": 4.5
+    },
+    {
+      "path": "/",
+      "selector": "H2.",
+      "text": "Who gets what?Under which rules?",
+      "ratio": 16.54,
+      "threshold": 3
+    },
+    {
+      "path": "/",
+      "selector": "P.",
+      "text": "People need time, places and opportunities. Their ",
+      "ratio": 6.12,
+      "threshold": 4.5
+    },
+    {
+      "path": "/",
+      "selector": "A.text-link",
+      "text": "Explore our approach",
+      "ratio": 16.54,
+      "threshold": 4.5
+    },
+    {
+      "path": "/",
+      "selector": "H2.",
+      "text": "The rules are part of the system.",
+      "ratio": 15.25,
+      "threshold": 3
+    },
+    {
+      "path": "/",
+      "selector": "P.",
+      "text": "Before building software, we make the decisions ex",
+      "ratio": 5.64,
+      "threshold": 4.5
+    },
+    {
+      "path": "/",
+      "selector": "H3.",
+      "text": "Model the problem.",
+      "ratio": 15.25,
+      "threshold": 3
+    },
+    {
+      "path": "/",
+      "selector": "P.",
+      "text": "Identify the participants, resources and constrain",
+      "ratio": 5.64,
+      "threshold": 4.5
+    },
+    {
+      "path": "/",
+      "selector": "H3.",
+      "text": "Design the rules.",
+      "ratio": 15.25,
+      "threshold": 3
+    },
+    {
+      "path": "/",
+      "selector": "P.",
+      "text": "Specify how preferences, priorities and objectives",
+      "ratio": 5.64,
+      "threshold": 4.5
+    },
+    {
+      "path": "/",
+      "selector": "H3.",
+      "text": "Build the system.",
+      "ratio": 15.25,
+      "threshold": 3
+    },
+    {
+      "path": "/",
+      "selector": "P.",
+      "text": "Translate the model and decision rules into algori",
+      "ratio": 5.64,
+      "threshold": 4.5
+    },
+    {
+      "path": "/",
+      "selector": "P.section-index",
+      "text": "In practice / Higher education",
+      "ratio": 5.64,
+      "threshold": 4.5
+    },
+    {
+      "path": "/",
+      "selector": "H2.",
+      "text": "An approach,applied.",
+      "ratio": 14.52,
+      "threshold": 3
+    },
+    {
+      "path": "/",
+      "selector": "P.lead",
+      "text": "Eduscope\u00ae is our product family for academic plann",
+      "ratio": 14.52,
+      "threshold": 4.5
+    },
+    {
+      "path": "/",
+      "selector": "P.",
+      "text": "Course scheduling, exam planning and invigilator a",
+      "ratio": 5.37,
+      "threshold": 4.5
+    },
+    {
+      "path": "/",
+      "selector": "A.text-link",
+      "text": "Explore Eduscope",
+      "ratio": 14.52,
+      "threshold": 4.5
+    },
+    {
+      "path": "/",
+      "selector": "H2.",
+      "text": "Research is a way of working.",
+      "ratio": 16.54,
+      "threshold": 3
+    },
+    {
+      "path": "/",
+      "selector": "P.",
+      "text": "For us, the connection between mathematics and sof",
+      "ratio": 6.12,
+      "threshold": 4.5
+    },
+    {
+      "path": "/",
+      "selector": "A.text-link",
+      "text": "About Match & Design",
+      "ratio": 16.54,
+      "threshold": 4.5
+    },
+    {
+      "path": "/",
+      "selector": "H2.",
+      "text": "What needs to be allocated\u2014and under which rules?",
+      "ratio": 14.09,
+      "threshold": 3
+    },
+    {
+      "path": "/",
+      "selector": "A.text-link",
+      "text": "Discuss your problem",
+      "ratio": 9.75,
+      "threshold": 4.5
+    },
+    {
+      "path": "/",
+      "selector": "A.footer-brand",
+      "text": "Match & Design",
+      "ratio": 18.99,
+      "threshold": 3
+    },
+    {
+      "path": "/",
+      "selector": "P.",
+      "text": "Allocation systems, by design.",
+      "ratio": 9.96,
+      "threshold": 4.5
+    },
+    {
+      "path": "/",
+      "selector": "P.footer-fields",
+      "text": "Matching theory. Market design.Mechanism design. O",
+      "ratio": 7.11,
+      "threshold": 4.5
+    },
+    {
+      "path": "/",
+      "selector": "A.",
+      "text": "Approach",
+      "ratio": 11.47,
+      "threshold": 4.5
+    },
+    {
+      "path": "/",
+      "selector": "A.",
+      "text": "Applications",
+      "ratio": 11.47,
+      "threshold": 4.5
+    },
+    {
+      "path": "/",
+      "selector": "A.",
+      "text": "About",
+      "ratio": 11.47,
+      "threshold": 4.5
+    },
+    {
+      "path": "/",
+      "selector": "A.",
+      "text": "Eduscope",
+      "ratio": 11.47,
+      "threshold": 4.5
+    },
+    {
+      "path": "/",
+      "selector": "A.",
+      "text": "Contact",
+      "ratio": 11.47,
+      "threshold": 4.5
+    },
+    {
+      "path": "/",
+      "selector": "P.",
+      "text": "\u00a9 2026 Match & Design Bili\u015fim A.\u015e.",
+      "ratio": 8.47,
+      "threshold": 4.5
+    },
+    {
+      "path": "/",
+      "selector": "A.",
+      "text": "Back to top",
+      "ratio": 8.47,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "A.",
+      "text": "Approach",
+      "ratio": 18.99,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "A.",
+      "text": "Applications",
+      "ratio": 11.26,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "A.",
+      "text": "About",
+      "ratio": 11.26,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "A.nav-external",
+      "text": "Eduscope",
+      "ratio": 11.26,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "A.nav-contact",
+      "text": "Contact",
+      "ratio": 18.99,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "P.section-index",
+      "text": "Approach",
+      "ratio": 9.01,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "H1.",
+      "text": "Start withthe decision.",
+      "ratio": 18.99,
+      "threshold": 3
+    },
+    {
+      "path": "/approach/",
+      "selector": "P.lead",
+      "text": "Every allocation system makes choices. The first t",
+      "ratio": 10.04,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "H2.",
+      "text": "Make the problem visible.",
+      "ratio": 16.54,
+      "threshold": 3
+    },
+    {
+      "path": "/approach/",
+      "selector": "P.",
+      "text": "A useful model starts with precise questions. The ",
+      "ratio": 6.12,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "H3.",
+      "text": "Participants",
+      "ratio": 16.54,
+      "threshold": 3
+    },
+    {
+      "path": "/approach/",
+      "selector": "P.ingredient-question",
+      "text": "Who is involved?",
+      "ratio": 16.54,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "P.ingredient-body",
+      "text": "The people, teams or institutions whose requests a",
+      "ratio": 6.12,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "H3.",
+      "text": "Resources",
+      "ratio": 16.54,
+      "threshold": 3
+    },
+    {
+      "path": "/approach/",
+      "selector": "P.ingredient-question",
+      "text": "What is being allocated?",
+      "ratio": 16.54,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "P.ingredient-body",
+      "text": "Time, space, capacity, opportunities or combinatio",
+      "ratio": 6.12,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "H3.",
+      "text": "Preferences",
+      "ratio": 16.54,
+      "threshold": 3
+    },
+    {
+      "path": "/approach/",
+      "selector": "P.ingredient-question",
+      "text": "What would people choose?",
+      "ratio": 16.54,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "P.ingredient-body",
+      "text": "Desired outcomes, including differences between pa",
+      "ratio": 6.12,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "H3.",
+      "text": "Priorities",
+      "ratio": 16.54,
+      "threshold": 3
+    },
+    {
+      "path": "/approach/",
+      "selector": "P.ingredient-question",
+      "text": "Whose claims take precedence?",
+      "ratio": 16.54,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "P.ingredient-body",
+      "text": "Institutional rules for ordering claims when reque",
+      "ratio": 6.12,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "H3.",
+      "text": "Constraints",
+      "ratio": 16.54,
+      "threshold": 3
+    },
+    {
+      "path": "/approach/",
+      "selector": "P.ingredient-question",
+      "text": "What must hold?",
+      "ratio": 16.54,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "P.ingredient-body",
+      "text": "Capacity limits, availability, eligibility and oth",
+      "ratio": 6.12,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "H3.",
+      "text": "Objectives",
+      "ratio": 16.54,
+      "threshold": 3
+    },
+    {
+      "path": "/approach/",
+      "selector": "P.ingredient-question",
+      "text": "What makes an outcome good?",
+      "ratio": 16.54,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "P.ingredient-body",
+      "text": "The criteria used to compare feasible outcomes, an",
+      "ratio": 6.12,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "H2.",
+      "text": "A rule changes an outcome.",
+      "ratio": 15.25,
+      "threshold": 3
+    },
+    {
+      "path": "/approach/",
+      "selector": "P.",
+      "text": "Even a small allocation problem makes the effect o",
+      "ratio": 5.64,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "P.",
+      "text": "Three participants. Three resources. Two priority ",
+      "ratio": 5.64,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "BUTTON.",
+      "text": "A \u2192 B \u2192 C",
+      "ratio": 18.99,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "BUTTON.",
+      "text": "C \u2192 B \u2192 A",
+      "ratio": 15.25,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "TH.",
+      "text": "Participant",
+      "ratio": 15.25,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "TH.",
+      "text": "1st",
+      "ratio": 15.25,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "TH.",
+      "text": "2nd",
+      "ratio": 15.25,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "TH.",
+      "text": "3rd",
+      "ratio": 15.25,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "TH.",
+      "text": "A",
+      "ratio": 15.25,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "TD.",
+      "text": "X",
+      "ratio": 15.25,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "TD.",
+      "text": "Y",
+      "ratio": 15.25,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "TD.",
+      "text": "Z",
+      "ratio": 12.99,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "TH.",
+      "text": "B",
+      "ratio": 15.25,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "TD.",
+      "text": "X",
+      "ratio": 15.25,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "TD.",
+      "text": "Z",
+      "ratio": 15.25,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "TD.",
+      "text": "Y",
+      "ratio": 12.99,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "TH.",
+      "text": "C",
+      "ratio": 15.25,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "TD.",
+      "text": "Y",
+      "ratio": 15.25,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "TD.",
+      "text": "X",
+      "ratio": 15.25,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "TD.",
+      "text": "Z",
+      "ratio": 12.99,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "H3.",
+      "text": "Priority order: A \u2192 B \u2192 C",
+      "ratio": 17.38,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "P.",
+      "text": "Each participant takes their highest-ranked remain",
+      "ratio": 10.04,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "P.demo-annotation",
+      "text": "Illustrative example: one unit per resource, one a",
+      "ratio": 5.64,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "H2.",
+      "text": "From the problemto the system.",
+      "ratio": 16.54,
+      "threshold": 3
+    },
+    {
+      "path": "/approach/",
+      "selector": "P.",
+      "text": "Before building software, we make the decisions ex",
+      "ratio": 6.12,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "H3.",
+      "text": "Model the problem.",
+      "ratio": 16.54,
+      "threshold": 3
+    },
+    {
+      "path": "/approach/",
+      "selector": "P.",
+      "text": "Identify the participants, resources and constrain",
+      "ratio": 6.12,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "H3.",
+      "text": "Design the rules.",
+      "ratio": 16.54,
+      "threshold": 3
+    },
+    {
+      "path": "/approach/",
+      "selector": "P.",
+      "text": "Specify how preferences, priorities and objectives",
+      "ratio": 6.12,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "H3.",
+      "text": "Build the system.",
+      "ratio": 16.54,
+      "threshold": 3
+    },
+    {
+      "path": "/approach/",
+      "selector": "P.",
+      "text": "Translate the model and decision rules into algori",
+      "ratio": 6.12,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "P.approach-note",
+      "text": "The process is iterative. A requirement uncovered ",
+      "ratio": 6.12,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "H2.",
+      "text": "Different tools.A shared problem.",
+      "ratio": 16.54,
+      "threshold": 3
+    },
+    {
+      "path": "/approach/",
+      "selector": "P.",
+      "text": "The disciplines ask different questions. A particu",
+      "ratio": 6.12,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "H3.",
+      "text": "Matching theory",
+      "ratio": 16.54,
+      "threshold": 3
+    },
+    {
+      "path": "/approach/",
+      "selector": "P.",
+      "text": "How participants and opportunities can be paired w",
+      "ratio": 6.12,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "H3.",
+      "text": "Market design",
+      "ratio": 16.54,
+      "threshold": 3
+    },
+    {
+      "path": "/approach/",
+      "selector": "P.",
+      "text": "How the rules of an allocation process shape parti",
+      "ratio": 6.12,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "H3.",
+      "text": "Mechanism design",
+      "ratio": 16.54,
+      "threshold": 3
+    },
+    {
+      "path": "/approach/",
+      "selector": "P.",
+      "text": "How information, incentives and decision rules int",
+      "ratio": 6.12,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "H3.",
+      "text": "Optimization",
+      "ratio": 16.54,
+      "threshold": 3
+    },
+    {
+      "path": "/approach/",
+      "selector": "P.",
+      "text": "How to search for feasible allocations and compare",
+      "ratio": 6.12,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "H2.",
+      "text": "What needs to be allocated\u2014and under which rules?",
+      "ratio": 14.09,
+      "threshold": 3
+    },
+    {
+      "path": "/approach/",
+      "selector": "A.text-link",
+      "text": "Discuss your problem",
+      "ratio": 9.75,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "A.footer-brand",
+      "text": "Match & Design",
+      "ratio": 18.99,
+      "threshold": 3
+    },
+    {
+      "path": "/approach/",
+      "selector": "P.",
+      "text": "Allocation systems, by design.",
+      "ratio": 9.96,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "P.footer-fields",
+      "text": "Matching theory. Market design.Mechanism design. O",
+      "ratio": 7.11,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "A.",
+      "text": "Approach",
+      "ratio": 11.47,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "A.",
+      "text": "Applications",
+      "ratio": 11.47,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "A.",
+      "text": "About",
+      "ratio": 11.47,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "A.",
+      "text": "Eduscope",
+      "ratio": 11.47,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "A.",
+      "text": "Contact",
+      "ratio": 11.47,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "P.",
+      "text": "\u00a9 2026 Match & Design Bili\u015fim A.\u015e.",
+      "ratio": 8.47,
+      "threshold": 4.5
+    },
+    {
+      "path": "/approach/",
+      "selector": "A.",
+      "text": "Back to top",
+      "ratio": 8.47,
+      "threshold": 4.5
+    },
+    {
+      "path": "/work/",
+      "selector": "A.",
+      "text": "Approach",
+      "ratio": 11.26,
+      "threshold": 4.5
+    },
+    {
+      "path": "/work/",
+      "selector": "A.",
+      "text": "Applications",
+      "ratio": 18.99,
+      "threshold": 4.5
+    },
+    {
+      "path": "/work/",
+      "selector": "A.",
+      "text": "About",
+      "ratio": 11.26,
+      "threshold": 4.5
+    },
+    {
+      "path": "/work/",
+      "selector": "A.nav-external",
+      "text": "Eduscope",
+      "ratio": 11.26,
+      "threshold": 4.5
+    },
+    {
+      "path": "/work/",
+      "selector": "A.nav-contact",
+      "text": "Contact",
+      "ratio": 18.99,
+      "threshold": 4.5
+    },
+    {
+      "path": "/work/",
+      "selector": "P.section-index",
+      "text": "Applications",
+      "ratio": 9.01,
+      "threshold": 4.5
+    },
+    {
+      "path": "/work/",
+      "selector": "H1.",
+      "text": "A common structure.Real applications.",
+      "ratio": 18.99,
+      "threshold": 3
+    },
+    {
+      "path": "/work/",
+      "selector": "P.lead",
+      "text": "An allocation problem can look like a timetable, a",
+      "ratio": 10.04,
+      "threshold": 4.5
+    },
+    {
+      "path": "/work/",
+      "selector": "H2.",
+      "text": "Higher education,in practice.",
+      "ratio": 16.54,
+      "threshold": 3
+    },
+    {
+      "path": "/work/",
+      "selector": "P.",
+      "text": "Universities allocate teaching time, rooms and sta",
+      "ratio": 6.12,
+      "threshold": 4.5
+    },
+    {
+      "path": "/work/",
+      "selector": "H3.",
+      "text": "Course scheduling",
+      "ratio": 16.54,
+      "threshold": 4.5
+    },
+    {
+      "path": "/work/",
+      "selector": "P.",
+      "text": "Courses, sections, teaching staff, rooms and time.",
+      "ratio": 6.12,
+      "threshold": 4.5
+    },
+    {
+      "path": "/work/",
+      "selector": "H3.",
+      "text": "Exam scheduling",
+      "ratio": 16.54,
+      "threshold": 4.5
+    },
+    {
+      "path": "/work/",
+      "selector": "P.",
+      "text": "Examinations, student conflicts, rooms and capacit",
+      "ratio": 6.12,
+      "threshold": 4.5
+    },
+    {
+      "path": "/work/",
+      "selector": "H3.",
+      "text": "Invigilator assignment",
+      "ratio": 16.54,
+      "threshold": 4.5
+    },
+    {
+      "path": "/work/",
+      "selector": "P.",
+      "text": "Examination duties, staff availability and assignm",
+      "ratio": 6.12,
+      "threshold": 4.5
+    },
+    {
+      "path": "/work/",
+      "selector": "A.text-link",
+      "text": "Explore Eduscope",
+      "ratio": 16.54,
+      "threshold": 4.5
+    },
+    {
+      "path": "/work/",
+      "selector": "H2.",
+      "text": "The methodologyhas a wider reach.",
+      "ratio": 16.54,
+      "threshold": 3
+    },
+    {
+      "path": "/work/",
+      "selector": "P.",
+      "text": "These are problem classes to which the methodology",
+      "ratio": 6.12,
+      "threshold": 4.5
+    },
+    {
+      "path": "/work/",
+      "selector": "H3.",
+      "text": "People & duties",
+      "ratio": 16.54,
+      "threshold": 3
+    },
+    {
+      "path": "/work/",
+      "selector": "P.",
+      "text": "Assigning tasks or shifts under eligibility, avail",
+      "ratio": 6.12,
+      "threshold": 4.5
+    },
+    {
+      "path": "/work/",
+      "selector": "H3.",
+      "text": "Space & capacity",
+      "ratio": 16.54,
+      "threshold": 3
+    },
+    {
+      "path": "/work/",
+      "selector": "P.",
+      "text": "Allocating shared rooms, facilities or limited cap",
+      "ratio": 6.12,
+      "threshold": 4.5
+    },
+    {
+      "path": "/work/",
+      "selector": "H3.",
+      "text": "People & opportunities",
+      "ratio": 16.54,
+      "threshold": 3
+    },
+    {
+      "path": "/work/",
+      "selector": "P.",
+      "text": "Matching participants to positions or opportunitie",
+      "ratio": 6.12,
+      "threshold": 4.5
+    },
+    {
+      "path": "/work/",
+      "selector": "H2.",
+      "text": "What needs to be allocated\u2014and under which rules?",
+      "ratio": 14.09,
+      "threshold": 3
+    },
+    {
+      "path": "/work/",
+      "selector": "A.text-link",
+      "text": "Discuss your problem",
+      "ratio": 9.75,
+      "threshold": 4.5
+    },
+    {
+      "path": "/work/",
+      "selector": "A.footer-brand",
+      "text": "Match & Design",
+      "ratio": 18.99,
+      "threshold": 3
+    },
+    {
+      "path": "/work/",
+      "selector": "P.",
+      "text": "Allocation systems, by design.",
+      "ratio": 9.96,
+      "threshold": 4.5
+    },
+    {
+      "path": "/work/",
+      "selector": "P.footer-fields",
+      "text": "Matching theory. Market design.Mechanism design. O",
+      "ratio": 7.11,
+      "threshold": 4.5
+    },
+    {
+      "path": "/work/",
+      "selector": "A.",
+      "text": "Approach",
+      "ratio": 11.47,
+      "threshold": 4.5
+    },
+    {
+      "path": "/work/",
+      "selector": "A.",
+      "text": "Applications",
+      "ratio": 11.47,
+      "threshold": 4.5
+    },
+    {
+      "path": "/work/",
+      "selector": "A.",
+      "text": "About",
+      "ratio": 11.47,
+      "threshold": 4.5
+    },
+    {
+      "path": "/work/",
+      "selector": "A.",
+      "text": "Eduscope",
+      "ratio": 11.47,
+      "threshold": 4.5
+    },
+    {
+      "path": "/work/",
+      "selector": "A.",
+      "text": "Contact",
+      "ratio": 11.47,
+      "threshold": 4.5
+    },
+    {
+      "path": "/work/",
+      "selector": "P.",
+      "text": "\u00a9 2026 Match & Design Bili\u015fim A.\u015e.",
+      "ratio": 8.47,
+      "threshold": 4.5
+    },
+    {
+      "path": "/work/",
+      "selector": "A.",
+      "text": "Back to top",
+      "ratio": 8.47,
+      "threshold": 4.5
+    },
+    {
+      "path": "/about/",
+      "selector": "A.",
+      "text": "Approach",
+      "ratio": 11.26,
+      "threshold": 4.5
+    },
+    {
+      "path": "/about/",
+      "selector": "A.",
+      "text": "Applications",
+      "ratio": 11.26,
+      "threshold": 4.5
+    },
+    {
+      "path": "/about/",
+      "selector": "A.",
+      "text": "About",
+      "ratio": 18.99,
+      "threshold": 4.5
+    },
+    {
+      "path": "/about/",
+      "selector": "A.nav-external",
+      "text": "Eduscope",
+      "ratio": 11.26,
+      "threshold": 4.5
+    },
+    {
+      "path": "/about/",
+      "selector": "A.nav-contact",
+      "text": "Contact",
+      "ratio": 18.99,
+      "threshold": 4.5
+    },
+    {
+      "path": "/about/",
+      "selector": "P.section-index",
+      "text": "About",
+      "ratio": 9.01,
+      "threshold": 4.5
+    },
+    {
+      "path": "/about/",
+      "selector": "H1.",
+      "text": "Mathematical thinking.Working systems.",
+      "ratio": 18.99,
+      "threshold": 3
+    },
+    {
+      "path": "/about/",
+      "selector": "P.lead",
+      "text": "Match & Design is a technology company focused on ",
+      "ratio": 10.04,
+      "threshold": 4.5
+    },
+    {
+      "path": "/about/",
+      "selector": "P.",
+      "text": "CompanyMatch & Design Bili\u015fim A.\u015e.",
+      "ratio": 6.12,
+      "threshold": 4.5
+    },
+    {
+      "path": "/about/",
+      "selector": "P.",
+      "text": "Our work connects matching theory, market design, ",
+      "ratio": 6.12,
+      "threshold": 4.5
+    },
+    {
+      "path": "/about/",
+      "selector": "P.",
+      "text": "We focus on problems in which participants, scarce",
+      "ratio": 6.12,
+      "threshold": 4.5
+    },
+    {
+      "path": "/about/",
+      "selector": "P.",
+      "text": "Eduscope\u00ae is the company\u2019s product family for high",
+      "ratio": 6.12,
+      "threshold": 4.5
+    },
+    {
+      "path": "/about/",
+      "selector": "H2.",
+      "text": "Why this work matters.",
+      "ratio": 14.52,
+      "threshold": 3
+    },
+    {
+      "path": "/about/",
+      "selector": "P.",
+      "text": "A system for allocating resources embeds decisions",
+      "ratio": 7.36,
+      "threshold": 4.5
+    },
+    {
+      "path": "/about/",
+      "selector": "H2.",
+      "text": "What guides the work.",
+      "ratio": 16.54,
+      "threshold": 3
+    },
+    {
+      "path": "/about/",
+      "selector": "H3.",
+      "text": "Explicit assumptions",
+      "ratio": 16.54,
+      "threshold": 3
+    },
+    {
+      "path": "/about/",
+      "selector": "P.",
+      "text": "Identify what is known, what is assumed and where ",
+      "ratio": 6.12,
+      "threshold": 4.5
+    },
+    {
+      "path": "/about/",
+      "selector": "H3.",
+      "text": "Clear decision rules",
+      "ratio": 16.54,
+      "threshold": 3
+    },
+    {
+      "path": "/about/",
+      "selector": "P.",
+      "text": "Separate hard requirements, preferences and object",
+      "ratio": 6.12,
+      "threshold": 4.5
+    },
+    {
+      "path": "/about/",
+      "selector": "H3.",
+      "text": "Evaluation in context",
+      "ratio": 16.54,
+      "threshold": 3
+    },
+    {
+      "path": "/about/",
+      "selector": "P.",
+      "text": "Assess outcomes against the stated criteria and th",
+      "ratio": 6.12,
+      "threshold": 4.5
+    },
+    {
+      "path": "/about/",
+      "selector": "H2.",
+      "text": "What needs to be allocated\u2014and under which rules?",
+      "ratio": 14.09,
+      "threshold": 3
+    },
+    {
+      "path": "/about/",
+      "selector": "A.text-link",
+      "text": "Discuss your problem",
+      "ratio": 9.75,
+      "threshold": 4.5
+    },
+    {
+      "path": "/about/",
+      "selector": "A.footer-brand",
+      "text": "Match & Design",
+      "ratio": 18.99,
+      "threshold": 3
+    },
+    {
+      "path": "/about/",
+      "selector": "P.",
+      "text": "Allocation systems, by design.",
+      "ratio": 9.96,
+      "threshold": 4.5
+    },
+    {
+      "path": "/about/",
+      "selector": "P.footer-fields",
+      "text": "Matching theory. Market design.Mechanism design. O",
+      "ratio": 7.11,
+      "threshold": 4.5
+    },
+    {
+      "path": "/about/",
+      "selector": "A.",
+      "text": "Approach",
+      "ratio": 11.47,
+      "threshold": 4.5
+    },
+    {
+      "path": "/about/",
+      "selector": "A.",
+      "text": "Applications",
+      "ratio": 11.47,
+      "threshold": 4.5
+    },
+    {
+      "path": "/about/",
+      "selector": "A.",
+      "text": "About",
+      "ratio": 11.47,
+      "threshold": 4.5
+    },
+    {
+      "path": "/about/",
+      "selector": "A.",
+      "text": "Eduscope",
+      "ratio": 11.47,
+      "threshold": 4.5
+    },
+    {
+      "path": "/about/",
+      "selector": "A.",
+      "text": "Contact",
+      "ratio": 11.47,
+      "threshold": 4.5
+    },
+    {
+      "path": "/about/",
+      "selector": "P.",
+      "text": "\u00a9 2026 Match & Design Bili\u015fim A.\u015e.",
+      "ratio": 8.47,
+      "threshold": 4.5
+    },
+    {
+      "path": "/about/",
+      "selector": "A.",
+      "text": "Back to top",
+      "ratio": 8.47,
+      "threshold": 4.5
+    },
+    {
+      "path": "/contact/",
+      "selector": "A.",
+      "text": "Approach",
+      "ratio": 11.26,
+      "threshold": 4.5
+    },
+    {
+      "path": "/contact/",
+      "selector": "A.",
+      "text": "Applications",
+      "ratio": 11.26,
+      "threshold": 4.5
+    },
+    {
+      "path": "/contact/",
+      "selector": "A.",
+      "text": "About",
+      "ratio": 11.26,
+      "threshold": 4.5
+    },
+    {
+      "path": "/contact/",
+      "selector": "A.nav-external",
+      "text": "Eduscope",
+      "ratio": 11.26,
+      "threshold": 4.5
+    },
+    {
+      "path": "/contact/",
+      "selector": "A.nav-contact",
+      "text": "Contact",
+      "ratio": 18.99,
+      "threshold": 4.5
+    },
+    {
+      "path": "/contact/",
+      "selector": "P.section-index",
+      "text": "Contact",
+      "ratio": 9.01,
+      "threshold": 4.5
+    },
+    {
+      "path": "/contact/",
+      "selector": "H1.",
+      "text": "What needsto be allocated?",
+      "ratio": 18.99,
+      "threshold": 3
+    },
+    {
+      "path": "/contact/",
+      "selector": "P.lead",
+      "text": "Tell us what is being shared, who is involved and ",
+      "ratio": 10.04,
+      "threshold": 4.5
+    },
+    {
+      "path": "/contact/",
+      "selector": "P.section-index",
+      "text": "Business enquiries",
+      "ratio": 6.12,
+      "threshold": 4.5
+    },
+    {
+      "path": "/contact/",
+      "selector": "A.text-link",
+      "text": "asaf@matchanddesign.com",
+      "ratio": 16.54,
+      "threshold": 3
+    },
+    {
+      "path": "/contact/",
+      "selector": "H2.",
+      "text": "A useful first conversation.",
+      "ratio": 16.54,
+      "threshold": 3
+    },
+    {
+      "path": "/contact/",
+      "selector": "H2.",
+      "text": "Outline your problem.",
+      "ratio": 16.54,
+      "threshold": 3
+    },
+    {
+      "path": "/contact/",
+      "selector": "P.",
+      "text": "A few sentences are enough to begin.",
+      "ratio": 6.12,
+      "threshold": 4.5
+    },
+    {
+      "path": "/contact/",
+      "selector": "LABEL.",
+      "text": "Your name (optional)",
+      "ratio": 16.54,
+      "threshold": 4.5
+    },
+    {
+      "path": "/contact/",
+      "selector": "INPUT.",
+      "text": "",
+      "ratio": 15.97,
+      "threshold": 4.5
+    },
+    {
+      "path": "/contact/",
+      "selector": "LABEL.",
+      "text": "Organisation (optional)",
+      "ratio": 16.54,
+      "threshold": 4.5
+    },
+    {
+      "path": "/contact/",
+      "selector": "INPUT.",
+      "text": "",
+      "ratio": 15.97,
+      "threshold": 4.5
+    },
+    {
+      "path": "/contact/",
+      "selector": "LABEL.",
+      "text": "The allocation problem (required)",
+      "ratio": 16.54,
+      "threshold": 4.5
+    },
+    {
+      "path": "/contact/",
+      "selector": "TEXTAREA.",
+      "text": "",
+      "ratio": 15.97,
+      "threshold": 4.5
+    },
+    {
+      "path": "/contact/",
+      "selector": "BUTTON.compose-button",
+      "text": "Prepare an email",
+      "ratio": 18.99,
+      "threshold": 4.5
+    },
+    {
+      "path": "/contact/",
+      "selector": "P.form-note",
+      "text": "Opens a draft in your email app for you to review ",
+      "ratio": 6.12,
+      "threshold": 4.5
+    },
+    {
+      "path": "/contact/",
+      "selector": "A.footer-brand",
+      "text": "Match & Design",
+      "ratio": 18.99,
+      "threshold": 3
+    },
+    {
+      "path": "/contact/",
+      "selector": "P.",
+      "text": "Allocation systems, by design.",
+      "ratio": 9.96,
+      "threshold": 4.5
+    },
+    {
+      "path": "/contact/",
+      "selector": "P.footer-fields",
+      "text": "Matching theory. Market design.Mechanism design. O",
+      "ratio": 7.11,
+      "threshold": 4.5
+    },
+    {
+      "path": "/contact/",
+      "selector": "A.",
+      "text": "Approach",
+      "ratio": 11.47,
+      "threshold": 4.5
+    },
+    {
+      "path": "/contact/",
+      "selector": "A.",
+      "text": "Applications",
+      "ratio": 11.47,
+      "threshold": 4.5
+    },
+    {
+      "path": "/contact/",
+      "selector": "A.",
+      "text": "About",
+      "ratio": 11.47,
+      "threshold": 4.5
+    },
+    {
+      "path": "/contact/",
+      "selector": "A.",
+      "text": "Eduscope",
+      "ratio": 11.47,
+      "threshold": 4.5
+    },
+    {
+      "path": "/contact/",
+      "selector": "A.",
+      "text": "Contact",
+      "ratio": 11.47,
+      "threshold": 4.5
+    },
+    {
+      "path": "/contact/",
+      "selector": "P.",
+      "text": "\u00a9 2026 Match & Design Bili\u015fim A.\u015e.",
+      "ratio": 8.47,
+      "threshold": 4.5
+    },
+    {
+      "path": "/contact/",
+      "selector": "A.",
+      "text": "Back to top",
+      "ratio": 8.47,
+      "threshold": 4.5
+    }
+  ]
+}

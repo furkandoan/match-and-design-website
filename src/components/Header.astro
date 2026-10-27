@@ -1,0 +1,54 @@
+---
+import Arrow from './Arrow.astro';
+import { site, navigation, EDUSCOPE_URL } from '../data/site';
+const current = Astro.url.pathname.replace(/\/$/, '') || '/';
+---
+<header class="site-header wrap" id="top">
+  <a class="brand" href="/" aria-label={`${site.name} — home`}>
+    <img src="/logos/match-and-design-white.png" width="1000" height="448" alt="Match & Design — Matching Theory and Market Design" fetchpriority="high" />
+  </a>
+  <button class="menu-toggle" type="button" aria-controls="primary-navigation" aria-expanded="false" hidden>
+    <span data-menu-label>Menu</span><span class="menu-symbol" aria-hidden="true"><span></span><span></span></span>
+  </button>
+  <nav class="primary-nav" id="primary-navigation" aria-label="Main navigation">
+    {navigation.map(item => <a href={item.href} aria-current={current === item.href.replace(/\/$/, '') ? 'page' : undefined}>{item.label}</a>)}
+    <a class="nav-external" href={EDUSCOPE_URL}>Eduscope <Arrow direction="up-right" /></a>
+    <a class="nav-contact" href="/contact/" aria-current={current === '/contact' ? 'page' : undefined}>Contact <Arrow /></a>
+  </nav>
+</header>
+
+<script>
+  const button = document.querySelector<HTMLButtonElement>('.menu-toggle');
+  const nav = document.querySelector<HTMLElement>('.primary-nav');
+  if (button && nav) {
+    button.hidden = false;
+    document.documentElement.classList.add('has-menu');
+    const closeMenu = () => {
+      button.setAttribute('aria-expanded', 'false');
+      const label = button.querySelector('[data-menu-label]');
+      if (label) label.textContent = 'Menu';
+      nav.removeAttribute('data-open');
+    };
+    button.addEventListener('click', () => {
+      const isOpen = button.getAttribute('aria-expanded') !== 'true';
+      button.setAttribute('aria-expanded', String(isOpen));
+      const label = button.querySelector('[data-menu-label]');
+      if (label) label.textContent = isOpen ? 'Close' : 'Menu';
+      nav.toggleAttribute('data-open', isOpen);
+    });
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape' && button.getAttribute('aria-expanded') === 'true') {
+        closeMenu();
+        button.focus();
+      }
+    });
+    document.addEventListener('click', event => {
+      if (event.target instanceof Node && !nav.contains(event.target) && !button.contains(event.target)) closeMenu();
+    });
+    nav.addEventListener('click', event => { if ((event.target as HTMLElement).closest('a')) closeMenu(); });
+    document.addEventListener('focusin', event => {
+      if (event.target instanceof Node && !nav.contains(event.target) && !button.contains(event.target)) closeMenu();
+    });
+    window.matchMedia('(min-width: 901px)').addEventListener('change', closeMenu);
+  }
+</script>

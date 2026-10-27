@@ -1,0 +1,27 @@
+---
+import { createField, matchingAt, projectNode, connectionControl, INTRO_DURATION, type FieldEdge } from '../lib/allocation-field';
+const field = createField(14, 8);
+const points = field.nodes.map(node => projectNode(node, INTRO_DURATION, 1440, 570));
+const matching = matchingAt(field, INTRO_DURATION);
+const pathFor = (edge: FieldEdge) => {
+  const a = points[edge.a], b = points[edge.b], c = connectionControl(a, b, edge);
+  return `M${a.x},${a.y}Q${c.x},${c.y} ${b.x},${b.y}`;
+};
+---
+<figure class="allocation-film" aria-labelledby="allocation-film-description">
+  <div class="allocation-scene" data-allocation-film>
+    <svg class="motion-fallback" viewBox="0 0 1440 570" preserveAspectRatio="xMidYMid slice" role="img" aria-labelledby="field-title field-description">
+      <title id="field-title">A field of possible allocations</title>
+      <desc id="field-description">A perspective graph of participants and resources. Purple connections represent possible relationships; green connections form one illustrative matching. The animation assembles the graph and settles into a still composition.</desc>
+      <g fill="none" stroke="#9288c0" stroke-width=".8" opacity=".5">{field.possible.map(edge => <path d={pathFor(edge)} />)}</g>
+      <g fill="none" stroke="#00f59b" stroke-width="1.8" opacity=".8">{matching.map(edge => <path d={pathFor(edge)} />)}</g>
+      <g>{points.map((point, i) => <circle cx={point.x} cy={point.y} r={Math.max(1.5, point.scale * 2)} fill={field.nodes[i].kind ? '#d7d1ef' : '#00f59b'} />)}</g>
+    </svg>
+    <canvas aria-hidden="true"></canvas>
+  </div>
+  <figcaption class="sr-only" id="allocation-film-description">An illustrative graph of participants and resources assembles into a perspective field. Green connections form one possible allocation.</figcaption>
+</figure>
+
+<script>
+  import '../scripts/allocation-film';
+</script>

@@ -1,0 +1,20 @@
+{
+  "productionScience": {
+    "exchangeReady": true,
+    "robots": "noindex, nofollow",
+    "scrollWidth": 1440,
+    "sourceCount": 9,
+    "title": "The Science of Allocation — Match & Design",
+    "width": 1440
+  },
+  "productionPairs": {
+    "mode": "pairs",
+    "poolHidden": true
+  },
+  "productionPool": {
+    "mode": "pool",
+    "poolHidden": false
+  },
+  "productionMotionPause": "paused",
+  "productionMotionResume": "playing"
+}

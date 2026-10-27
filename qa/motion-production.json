@@ -1,0 +1,10 @@
+{
+  "productionState": {
+    "enhanced": "true",
+    "font": "loaded",
+    "robots": "noindex, nofollow",
+    "state": "playing"
+  },
+  "productionPaused": "paused",
+  "productionResumed": "playing"
+}

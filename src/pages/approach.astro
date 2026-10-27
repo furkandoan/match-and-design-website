@@ -1,0 +1,32 @@
+---
+import Base from '../layouts/Base.astro';
+import MethodRows from '../components/MethodRows.astro';
+import BlockingPair from '../components/BlockingPair.astro';
+import ContactCta from '../components/ContactCta.astro';
+import { en } from '../data/en';
+---
+<Base title={en.approach.title} description={en.approach.description}>
+  <section class="page-hero wrap" aria-labelledby="page-title">
+    <p class="section-index">{en.approach.title}</p>
+    <h1 id="page-title">{en.approach.headline.map(line => <span class="line">{line}</span>)}</h1>
+    <p class="lead">{en.approach.intro}</p>
+  </section>
+  <section class="section bordered-section wrap" aria-labelledby="ingredients-title">
+    <div class="section-heading"><h2 id="ingredients-title">{en.approach.ingredientsTitle}</h2><p>{en.approach.ingredientsIntro}</p></div>
+    <ul class="ingredients">{en.approach.ingredients.map(item => <li><h3>{item.name}</h3><p class="ingredient-question">{item.question}</p><p class="ingredient-body">{item.body}</p></li>)}</ul>
+  </section>
+  <section class="demo-section" aria-labelledby="demo-title"><div class="section wrap">
+    <div class="section-heading"><h2 id="demo-title">{en.approach.interactionTitle}</h2><p>{en.approach.interactionIntro}</p></div>
+    <BlockingPair />
+  </div></section>
+  <section class="section wrap" aria-labelledby="approach-method-title">
+    <div class="section-heading"><h2 id="approach-method-title">From the problem<br />to the system.</h2><p>{en.home.approachIntro}</p></div>
+    <MethodRows />
+    <p class="approach-note">{en.approach.feedback}</p>
+  </section>
+  <section class="section bordered-section wrap" aria-labelledby="disciplines-title">
+    <div class="section-heading"><h2 id="disciplines-title">{en.approach.disciplinesTitle.split('\n').map(line => <span class="line">{line}</span>)}</h2><p>The disciplines ask different questions. A particular allocation problem determines which methods are appropriate.</p></div>
+    <div class="discipline-list">{en.approach.disciplines.map(item => <div class="discipline-row"><h3>{item.title}</h3><p>{item.body}</p></div>)}</div>
+  </section>
+  <ContactCta />
+</Base>

@@ -1,0 +1,10 @@
+---
+import { en } from '../data/en';
+---
+<ol class="method-rows">
+  {en.method.map(item => <li>
+    <span class="method-number" aria-hidden="true">{item.number}</span>
+    <h3>{item.title}</h3>
+    <p>{item.body}</p>
+  </li>)}
+</ol>

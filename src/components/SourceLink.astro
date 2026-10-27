@@ -1,0 +1,6 @@
+---
+import { science, type ScienceSourceKey } from '../data/science';
+interface Props { source: ScienceSourceKey; }
+const item = science.sources[Astro.props.source];
+---
+<a class="source-cite" href={item.href} aria-label={`Source ${item.number}: ${item.name}, ${item.title}`}>[{item.number}]</a>

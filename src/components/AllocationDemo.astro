@@ -1,0 +1,78 @@
+---
+const preferences = [
+  { person: 'A', choices: ['X', 'Y', 'Z'] },
+  { person: 'B', choices: ['X', 'Z', 'Y'] },
+  { person: 'C', choices: ['Y', 'X', 'Z'] },
+];
+---
+<div class="allocation-demo" data-allocation-demo>
+  <div class="demo-top">
+    <p>Three participants. Three resources. Two priority orders.</p>
+    <div class="order-control" role="group" aria-label="Choose a priority order" hidden>
+      <button type="button" data-order="ABC" aria-pressed="true" aria-controls="allocation-result" aria-label="Priority order A, then B, then C">A → B → C</button>
+      <button type="button" data-order="CBA" aria-pressed="false" aria-controls="allocation-result" aria-label="Priority order C, then B, then A">C → B → A</button>
+    </div>
+  </div>
+  <div class="demo-layout">
+    <table class="demo-table">
+      <caption>Preferences, from first to third choice</caption>
+      <thead><tr><th scope="col">Participant</th><th scope="col">1st</th><th scope="col">2nd</th><th scope="col">3rd</th></tr></thead>
+      <tbody>{preferences.map(row => <tr><th scope="row">{row.person}</th>{row.choices.map(choice => <td>{choice}</td>)}</tr>)}</tbody>
+    </table>
+    <div class="demo-results" id="allocation-result" aria-live="polite" aria-atomic="true">
+      <h3>Priority order: A → B → C</h3>
+      <ol aria-label="Allocations, in decision order">
+        <li><span class="allocation-person">A</span><span>receives</span><span class="allocation-resource">X</span></li>
+        <li><span class="allocation-person">B</span><span>receives</span><span class="allocation-resource">Z</span></li>
+        <li><span class="allocation-person">C</span><span>receives</span><span class="allocation-resource">Y</span></li>
+      </ol>
+      <p>Each participant takes their highest-ranked remaining resource. A chooses first, leaving Z for B and Y for C.</p>
+    </div>
+  </div>
+  <p class="demo-annotation">Illustrative example: one unit per resource, one allocation per participant. Preferences stay fixed. The priority order is an institutional choice.</p>
+</div>
+
+<script>
+  const demo = document.querySelector<HTMLElement>('[data-allocation-demo]');
+  if (demo) {
+    const control = demo.querySelector<HTMLElement>('.order-control');
+    const result = demo.querySelector<HTMLElement>('#allocation-result');
+    const buttons = demo.querySelectorAll<HTMLButtonElement>('[data-order]');
+    const preferences: Record<string, string[]> = { A: ['X', 'Y', 'Z'], B: ['X', 'Z', 'Y'], C: ['Y', 'X', 'Z'] };
+    if (control && result) {
+      control.hidden = false;
+      buttons.forEach(button => button.addEventListener('click', () => {
+        const order = button.dataset.order?.split('');
+        if (!order || order.length !== 3 || order.some(person => !preferences[person])) return;
+        const available = new Set(['X', 'Y', 'Z']);
+        const allocations = order.map(person => {
+          const resource = preferences[person].find(choice => available.has(choice));
+          if (resource) available.delete(resource);
+          return { person, resource: resource ?? 'Unallocated' };
+        });
+        const heading = result.querySelector('h3');
+        if (heading) heading.textContent = `Priority order: ${order.join(' → ')}`;
+        const list = result.querySelector('ol');
+        if (list) {
+          list.replaceChildren(...allocations.map(({ person, resource }) => {
+            const row = document.createElement('li');
+            for (const [value, className] of [[person, 'allocation-person'], ['receives', ''], [resource, 'allocation-resource']]) {
+              const span = document.createElement('span');
+              span.textContent = value;
+              if (className) span.className = className;
+              row.append(span);
+            }
+            return row;
+          }));
+        }
+        const explanation = result.querySelector('p');
+        if (explanation) explanation.textContent = button.dataset.order === 'ABC'
+          ? 'Each participant takes their highest-ranked remaining resource. A chooses first, leaving Z for B and Y for C.'
+          : 'Each participant takes their highest-ranked remaining resource. C chooses Y, B then chooses X, and A receives Z.';
+        buttons.forEach(item => item.setAttribute('aria-pressed', String(item === button)));
+        result.classList.remove('is-updated');
+        requestAnimationFrame(() => result.classList.add('is-updated'));
+      }));
+    }
+  }
+</script>

@@ -1,0 +1,54 @@
+{
+  "captionChecks": [
+    {
+      "caption": {
+        "bottom": 867.5,
+        "height": 33,
+        "left": 21,
+        "right": 173.8984375,
+        "top": 834.5,
+        "width": 152.8984375,
+        "x": 21,
+        "y": 834.5
+      },
+      "control": {
+        "bottom": 873,
+        "height": 44,
+        "left": 198.2421875,
+        "right": 299,
+        "top": 829,
+        "width": 100.7578125,
+        "x": 198.2421875,
+        "y": 829
+      },
+      "scrollWidth": 320,
+      "width": 320
+    },
+    {
+      "caption": {
+        "bottom": 835.0703125,
+        "height": 18.1484375,
+        "left": 24,
+        "right": 199.515625,
+        "top": 816.921875,
+        "width": 175.515625,
+        "x": 24,
+        "y": 816.921875
+      },
+      "control": {
+        "bottom": 848,
+        "height": 44,
+        "left": 257.46875,
+        "right": 366,
+        "top": 804,
+        "width": 108.53125,
+        "x": 257.46875,
+        "y": 804
+      },
+      "scrollWidth": 390,
+      "width": 390
+    }
+  ],
+  "menuOpen": "true",
+  "menuClosed": "false"
+}

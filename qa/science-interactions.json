@@ -1,0 +1,12 @@
+{
+  "poolCheck": {
+    "mode": "pool",
+    "poolHidden": false,
+    "status": "A → B. B → C. C → A. Each recipient has a compatible donor in the pool."
+  },
+  "pairsCheck": {
+    "mode": "pairs",
+    "poolHidden": true,
+    "status": "Within these hypothetical pairs, none of the three donors is compatible with their intended recipient."
+  }
+}

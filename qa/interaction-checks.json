@@ -1,0 +1,11 @@
+{
+  "mobileMenu": {
+    "enterOpens": true,
+    "escapeCloses": true,
+    "focusReturns": true,
+    "linkNavigates": true
+  },
+  "skipLink": true,
+  "cbaResult": "Priority order: C → B → A\nC\nreceives\nY\nB\nreceives\nX\nA\nreceives\nZ\n\nEach participant takes their highest-ranked remaining resource. C chooses Y, B then chooses X, and A receives Z.",
+  "abcResult": "Priority order: A → B → C\nA\nreceives\nX\nB\nreceives\nZ\nC\nreceives\nY\n\nEach participant takes their highest-ranked remaining resource. A chooses first, leaving Z for B and Y for C."
+}
