@@ -40,6 +40,8 @@ Kuruluş tarihi, ekip sayısı, müşteri listesi, kurucu biyografisi, ödül, o
 
 Kaynak imzada `matchanddesign.com` bulunuyor; bu sitenin nihai domain'i olarak otomatik atanmadı. Local sürüm indekslemeye kapalı. Sorulacak: Kurumsal sitenin nihai domain'i hangisi? Yerel tasarım ve içerik onayından sonra hosting, sitemap, canonical, indeksleme ve gerekiyorsa analitik birlikte ele alınacak.
 
+**Karar (24 Kasım 2026):** Nihai domain `https://matchanddesign.com` olarak onaylandı; GitHub Pages sertifikası çalışıyor ve Enforce HTTPS açık. `.github/workflows/deploy.yml` içinde `PUBLIC_SITE_URL=https://matchanddesign.com` ve `PUBLIC_ALLOW_INDEXING=true` tanımlandı. Yerel geliştirme `.env` olmadan indekslemeye kapalı kalır. Sitemap henüz eklenmedi.
+
 ## 7 Navigasyon
 
 Uygulanan menü: Approach, Applications, Market Design, About, Eduscope ↗, Contact. Yeni sayfa `/market-design/`, adı The Science of Allocation. Kaynaklı araştırma anlatısı kullanıcı tarafından istendi; kişiler ve kurumlar şirketle ilişkili gibi sunulmadı. Applications adresi `/work/`. Sorulacak: Applications etiketi uygun mu, yoksa Work mü tercih ediliyor?

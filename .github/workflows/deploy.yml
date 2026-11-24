@@ -19,6 +19,11 @@ jobs:
 
       - name: Install, build, and upload Astro site
         uses: withastro/action@v6
+        env:
+          # Live domain confirmed with HTTPS on 24 November 2026.
+          PUBLIC_SITE_URL: https://matchanddesign.com
+          # Allows search engines to index the public site (robots.txt and meta robots).
+          PUBLIC_ALLOW_INDEXING: "true"
 
   deploy:
     needs: build
